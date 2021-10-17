@@ -76,7 +76,6 @@ TEMPLATES = [
 WSGI_APPLICATION = 'django_forum.wsgi.application'
 
 
-
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
@@ -89,11 +88,11 @@ WSGI_APPLICATION = 'django_forum.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'd1khu4thrt4dj0',
-        'USER': 'svtdrlrvpgcfnw',
-        'HOST': 'ec2-54-235-219-234.compute-1.amazonaws.com',
+        'NAME': 'd1jdltt524t9la',
+        'USER': 'jzwzeeqghtdycn',
+        'HOST': 'ec2-54-209-187-69.compute-1.amazonaws.com',
         'PORT': 5432,
-        'PASSWORD': '3ec3cd1e9811a1d14774c44bc1e398d6ca5b668dedab4a74a451f68c9236eebc',
+        'PASSWORD': 'db3a447d0502cc82c4ef82a51c2ea3fd3082a7799d341b5d2f4f0a34f5b80d9d',
     }
 }
 
@@ -141,7 +140,7 @@ cloudinary.config(
     api_key="686248248153895",
     # api_secret_key
     api_secret="73izWmHh2rxd7nlKghT_nhlGlAs",
-    
+
 )
 
 STATICFILES_DIRS = [
