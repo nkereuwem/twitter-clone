@@ -294,7 +294,7 @@ textarea {
   background-color: #209bf0;
   border: none;
   color: white;
-  border-radius: 15px;
+  border-radius: 5px;
 }
 
 #tweet-button:hover {
@@ -308,7 +308,7 @@ textarea {
 }
 
 .update-button {
-  border-radius: 20px;
+  border-radius: 5px;
   background-color: rgb(87, 231, 20) !important;
   width: 80px;
   height: 35px;
@@ -320,7 +320,7 @@ textarea {
 }
 
 .cancel-button {
-  border-radius: 20px;
+  border-radius: 5px;
   background-color: rgb(231, 20, 20) !important;
   width: 80px;
   height: 35px;
