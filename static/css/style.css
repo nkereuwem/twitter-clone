@@ -8,7 +8,6 @@ body {
 }
 .content {
   max-width: 600px;
-  height: 100%;
   margin: 0 auto;
   border-left: 1px solid #ccc;
   border-right: 1px solid #ccc;
@@ -108,7 +107,7 @@ displ .post_form input {
   text-decoration: none;
 }
 .posts li .logo img {
-  width: 60%;
+  width: 80%;
 }
 .posts li .name_body {
   flex-basis: 85%;
@@ -215,7 +214,6 @@ textarea {
 
 .posts li {
   display: flex;
-  border-bottom: 1px solid rgba(10, 219, 247, 0.952);
   padding: 20px 25px;
   list-style: none;
   position: relative;
@@ -309,9 +307,9 @@ textarea {
 
 .update-button {
   border-radius: 5px;
-  background-color: rgb(87, 231, 20) !important;
-  width: 80px;
-  height: 35px;
+  background-color: #209bf0 !important;
+  width: 14%;
+  height: 33px;
   color: rgb(227, 240, 224);
   font-weight: bold;
   border: none;
@@ -321,7 +319,7 @@ textarea {
 
 .cancel-button {
   border-radius: 5px;
-  background-color: rgb(231, 20, 20) !important;
+  background-color: #209bf0 !important;
   width: 80px;
   height: 35px;
   color: rgb(227, 240, 224);
